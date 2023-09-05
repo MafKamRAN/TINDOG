@@ -1,0 +1,137 @@
+body {
+    font-family: "Montserrat-Bold";
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 15%;
+}
+.font {
+    font-family: 'Montserrat-Black' sans-serif;
+    font-size: 3px;
+    line-height: 1.5;
+}
+.space {
+    padding-bottom: 1%;
+}
+.space2 {
+   padding-top: 2%;
+   padding-left: 10%;
+   padding-right: 3%;
+}
+.space3 {
+    padding: 1%;
+}
+.download-button {
+    margin: 5% 3% 3% 0;
+}
+
+.nav-item {
+    font-size: 17px;
+    margin-left: 5px;
+}
+.navbar-brand {
+    margin-left: 5px;
+    font-family: "Ubuntu";
+    font-weight: bolder;
+}
+#features {
+    padding: 7%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3px;
+    line-height: 1.5;
+}
+h3 {
+   font-family: 'Montserrat-Black';
+   font-size: 3px;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.space7 {
+    width: 120px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.space8 {
+    width: 120px;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center; 
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;   
+}
+.card {
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: scale(1.15);
+}
+.titles {
+    width: 250px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+@media (max-width: 1028px) {
+    .titles {
+        width: 250px;
+        position: static;
+        transform: rotate(0deg);
+     }
+}
+@media (max-width: 1028px) {
+     #title {
+        padding-bottom: 20px;
+        text-align: center;
+     }
+}
+#cta {
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 90px 40px;
+}
+.cta-gap {
+    margin: 10px;
+}
+#footer {
+    text-align: center;
+    padding: 60px 40px 40px;
+}
+.brand {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
